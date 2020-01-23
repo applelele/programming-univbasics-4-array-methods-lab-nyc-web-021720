@@ -1,5 +1,5 @@
 def using_include(array, element)
- array.include?
+ array.include?(element)
 end
 using_include(["tomato", "carrot", "lettuce"], "lettuce")
 
