@@ -27,4 +27,4 @@ using_last(["battery", "skrew", "soap", "bulb"])
 def using_size(array)
 array.size
 end
-using_size("Large", "Medium", "Small")
+using_size(["Large", "Medium", "Small"])
