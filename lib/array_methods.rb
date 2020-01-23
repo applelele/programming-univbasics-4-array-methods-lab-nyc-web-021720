@@ -9,8 +9,9 @@ end
 using_sort(["shirts", "pants", "Hat", "shoes"])
 
 def using_reverse(array)
-  using_reverse
+  array.reverse
 end
+using_reverse()
 
 def using_first(array)
 
