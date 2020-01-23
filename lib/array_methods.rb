@@ -1,6 +1,7 @@
 def using_include(array, element)
-
+ array.include?
 end
+using_include(["tomato", "carrot", "lettuce"], "lettuce")
 
 def using_sort(array)
 
