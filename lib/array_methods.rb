@@ -4,11 +4,12 @@ end
 using_include(["tomato", "carrot", "lettuce"], "lettuce")
 
 def using_sort(array)
-
+ array.sort
 end
+using_sort(["shirts", "pants", "Hat", "shoes"])
 
 def using_reverse(array)
-
+  using_reverse
 end
 
 def using_first(array)
